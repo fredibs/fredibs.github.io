@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F-Tech Lab</title>
+    <!-- Link para o Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white py-3">
+        <div class="container">
+            <h1 class="display-4">F-Tech Lab</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Início</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://www.youtube.com/@ftechlab">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Corpo da Página -->
+    <main>
+        <div class="container my-5">
+            <!-- Seção 1 -->
+            <section class="mb-4">
+                <h2 class="text-primary">Videos rescentes</h2>
+                <p>Texto da primeira seção. Esta é uma breve descrição ou conteúdo informativo.</p>
+            </section>
+
+            <!-- Seção 2 -->
+            <section class="mb-4">
+                <h2 class="text-primary">Videos recomendados</h2>
+                <p>Texto da segunda seção. Continue com mais informações relevantes aqui.</p>
+            </section>
+
+            <!-- Seção 3 -->
+            <section>
+                <h2 class="text-primary">Videos mais acessados</h2>
+                <p>Texto da terceira seção. Forneça detalhes adicionais ou conteúdos variados.</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>F-Tech Lab &copy; <span id="ano"></span> - Direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script para atualizar o ano automaticamente -->
+    <script>
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Link para o Bootstrap JS e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
